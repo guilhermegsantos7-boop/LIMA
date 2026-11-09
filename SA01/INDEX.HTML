@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SENAI - Cursos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+
+        header {
+            background-color: #204568;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+        }
+        header a { color: white; text-decoration: none; margin: 0 20px; font-size: 13px; }
+        .inscricao { background-color: orange; color: black; padding: 7px; }
+
+        .destaque {
+            background-color: #204568;
+            height: 160px;
+            margin-top: 38px;
+            display: flex;
+            align-items: center;
+            padding-left: 6%;
+            color: white;
+        }
+        .destaque img { height: 140px; }
+        .texto-destaque { width: 400px; margin-left: 40px; }
+
+        .cursos { padding: 0 30px; }
+        .lista-cursos { display: flex; justify-content: space-between; }
+        .curso { width: 17%; font-size: 12px; }
+        .curso img { width: 100%; height: 110px; object-fit: cover; }
+
+        .saiba-mais { text-align: center; margin-top: 60px; margin-bottom: 40px; }
+        .saiba-mais a {
+            background-color: orange;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 3px 55px;
+        }
+
+        footer { background-color: #204568; color: white; }
+
+        .titulo-rodape {
+            text-align: center;
+            padding: 20px;
+            border-bottom: 1px solid #7890a5;
+            font-size: 18px;
+        }
+
+        .conteudo-rodape {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 30px 0;
+        }
+
+        .logo { font-size: 45px; font-weight: bold; font-style: italic; }
+
+        .redes p { margin: 0 0 10px 0; font-size: 15px; }
+
+        .circulo {
+            background-color: #e0e0e0;
+            color: #204568;
+            text-decoration: none;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            font-size: 18px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SENAI</h1>
+        <nav>
+            <a href="#cursos">Cursos</a>
+            <a href="#contato">Contato</a>
+            <a href="#unidade">Unidade</a>
+        </nav>
+        <a class="inscricao" href="#contato">Inscreva-se</a>
+    </header>
+
+    <section class="destaque">
+        <img src="image.png" alt="Aluno do SENAI">
+        <div class="texto-destaque">
+            <h2>Qualificação profissional para um futuro melhor.</h2>
+            <p>Cursos que preparam você para o mercado de trabalho.</p>
+        </div>
+    </section>
+
+    <section class="cursos" id="cursos">
+        <h2>Cursos em destaque</h2>
+
+        <div class="lista-cursos">
+            <div class="curso">
+                <img src="image copy.png" alt="Administração e Gestão">
+                <p>Administração e Gestão</p>
+            </div>
+            <div class="curso">
+                <img src="image copy 2.png" alt="Logística e Transporte">
+                <p>Logística e Transporte</p>
+            </div>
+            <div class="curso">
+                <img src="image copy 3.png" alt="Desenvolvimento de Sistemas">
+                <p>Desenvolvimento<br>de Sistemas</p>
+            </div>
+            <div class="curso">
+                <img src="image copy 4.png" alt="Técnico em Qualidade">
+                <p>Técnico em Qualidade</p>
+            </div>
+        </div>
+
+        <div class="saiba-mais">
+            <a href="#contato">Saiba mais</a>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="titulo-rodape" id="unidade">FALE CONOSCO</div>
+
+        <div class="conteudo-rodape">
+            <div class="logo">SENAI</div>
+
+            <iframe width="400" height="225"
+                src="https://www.youtube.com/embed/s-qFWwEerKc"
+                title="Vídeo SENAI" allowfullscreen>
+            </iframe>
+
+            <div class="redes">
+                <p>Siga nossas redes</p>
+                <a class="circulo" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a class="circulo" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="circulo" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

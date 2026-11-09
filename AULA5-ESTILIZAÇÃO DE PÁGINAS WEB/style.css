@@ -1,0 +1,58 @@
+/* Seletor universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seletor de classe */
+.destaque {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Seletor de ID */
+#titulo-principal {
+    color: red;
+    text-align: center;
+}
+
+/* Seletor de elemento */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Seletores agrupados */
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+/* Imagens */
+img {
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    margin: auto;
+}
+
+/* Listas */
+ul {
+    list-style-type: square;
+    list-style-image: url("icone.png");
+}
+
+/* Tabelas */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-spacing: 5px;
+}
+/* Células da tabela */
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}

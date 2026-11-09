@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #204568;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    background-color: brown;
+    color: yellow;
+}
+
+nav a:active {
+    color: orange;
+}
+
+/* Banner */
+.banner {
+    background-color: #204568;
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.banner img {
+    width: 40%;
+    height: 245px;
+    border: 2px solid black;
+}
+
+.banner h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+/* Cursos */
+.titulo {
+    color: #204568;
+    font-size: 30px;
+    margin: 20px 30px;
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.cursos div {
+    width: 23%;
+    padding: 15px;
+}
+
+.cursos h3 {
+    color: #204568;
+    font-size: 20px;
+}
+
+.cursos p {
+    color: #204568;
+    margin-top: 12px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #204568;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+}
+
+/* Conteúdo do rodapé */
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.aprendizado {
+    text-align: left;
+    width: 30%;
+}
+
+.aprendizado h3 {
+    margin-bottom: 15px;
+}
+
+.aprendizado ul {
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+/* Tabela */
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: #315c80;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+th {
+    background-color: #16334f;
+}
+
+/* Link final */
+footer a {
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+footer a:hover {
+    color: yellow;
+}
